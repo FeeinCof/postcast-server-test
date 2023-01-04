@@ -7,12 +7,12 @@ const tagsSchema = new Schema({
 });
 
 const PostcastSchema = new Schema({
-  _id: String,
+  _id: mongoose.Types.ObjectId,
   title: String,
   des: String,
   time_stemp: Date,
   src: String,
-  author: String,
+  author: mongoose.Types.ObjectId,
   listened: Number,
   tags: [tagsSchema],
 });
