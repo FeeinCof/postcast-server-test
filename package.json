@@ -4,9 +4,7 @@
   "description": "MyPostCast - Server builder.",
   "main": "app.js",
   "scripts": {
-    "devStart": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Fee",
   "license": "ISC",
